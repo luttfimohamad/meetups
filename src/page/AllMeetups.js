@@ -25,8 +25,8 @@ const DUMMY_DATA = [
 export default function AllMeetups() {
   return (
     <section>
-      <h1>All Meetups</h1>
       <ul>
+        <h1>All Meetups</h1>
         <MeetUpList meetups={DUMMY_DATA} />
       </ul>
     </section>
