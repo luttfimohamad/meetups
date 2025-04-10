@@ -4,7 +4,7 @@ import NewMeetupForm from '../components/meetups/NewMeetupForm';
 export default function NewMeetups() {
   return (
     <section>
-      <hi>Add New Meetup</hi>
+      <h1>Add New Meetup</h1>
       <NewMeetupForm />
     </section>
   );
